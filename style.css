@@ -436,14 +436,14 @@ li {
 .social-media .social {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 121px;
+    width: 156px;
 }
 
 .social-media .social .list-social:not(:first-child) {
     /* background-color: linear-gradient(90deg, rgba(104, 175, 243, 1) 25%, rgba(64, 106, 231, 0.9206057422969187) 64%); */
-    background-color: rgb(104, 175, 243);
+    /* background-color: rgb(104, 175, 243); */
     padding: 4px;
     margin: 14px 2px;
     width: 17px;
@@ -455,4 +455,10 @@ li {
 
 .social-heading {
     padding-top: 12px;
+}
+
+.fa-brands {
+    color: rgba(64, 106, 231);
+    font-size: 28px;
+    margin-right: 12px;
 }
