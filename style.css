@@ -38,8 +38,8 @@ nav {
 .small-content {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 40px;
-    padding: 178px;
+    gap: 15px;
+    padding: 0px 210px;
 }
 
 
@@ -59,6 +59,12 @@ nav {
 
 .small-content .content {
     padding: 78px 47px;
+}
+
+.small-content .content img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 45px;
 }
 
 .content h3 {
@@ -249,12 +255,25 @@ nav {
     padding-left: 167px;
 }
 
+.right-side img,
+.left-side-cost img {
+    width: 801px;
+    height: 635px;
+}
+
 .left-side,
 .right-side-cost {
     font-size: 39px;
     width: 41%;
-    padding: 107px 1px;
+    padding-top: 75px;
+    /* padding: 77px 1px; */
+    /* margin-top: 57px; */
     /* margin: 89px 0px 45px 30px */
+}
+
+.service {
+    font-size: 39px;
+    width: 41%;
 }
 
 .left-side p,
@@ -315,11 +334,12 @@ nav {
 }
 
 .thor {
-    padding: 82px;
+    padding: 24px;
+    margin-left: 58px;
 }
 
 .thor-descrip {
-    padding: 23px 10px;
+    padding: 23px 134px;
     color: #757575;
 }
 
